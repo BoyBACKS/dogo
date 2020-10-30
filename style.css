@@ -1,0 +1,49 @@
+body{
+	background-color: #000000;
+	margin: 0;
+	font-family: 'Amatic SC', cursive;
+	font-size: 16px;
+}
+.sekcja{
+	height: 50vh;
+	background: #000000;
+	background-position: center;
+	max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+.petex{
+	color:whitesmoke;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 40%;
+    line-height: 1.4em;
+
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none; 
+}
+h1{
+    font-size: 50px;
+
+}
+#particles-js {
+    background: linear-gradient(45deg, #000000, #000000, #002E15, #004D24, #002E15, #000000, #000000);
+    background-size: 400% 400%;
+    height: 99.57vh;
+    animation: gradientBG 40s ease infinite;
+    overflow: hidden;
+}
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
